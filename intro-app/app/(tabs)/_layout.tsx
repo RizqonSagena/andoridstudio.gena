@@ -71,6 +71,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="Utssoalsatu"
+        options={{
+          title: "UTS",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="pencil" color={color} />
+          ),
+        }}
+      />
 
     </Tabs>
   );

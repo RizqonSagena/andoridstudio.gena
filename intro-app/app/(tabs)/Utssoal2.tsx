@@ -38,10 +38,7 @@ export default function product() {
     return (
         <SafeAreaView>
             <View style={style.container}>
-                {/* Produk dengan diskon nominal */}
                 <ProductCard title="Laptop" price={7000000} discount={1500000} />
-
-                {/* Produk dangan harga normal */}
                 <ProductCard title="Mouse" price={150000} discount={0} />
             </View>
         </SafeAreaView>

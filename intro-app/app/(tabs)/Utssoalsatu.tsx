@@ -5,16 +5,17 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Utssoalsatu() {
     return (
         <SafeAreaView>
-            <View style={styles.container}>
-                <View style={[styles.box, { backgroundColor: '#FF5722' }]}>
-                    <Text style={styles.text}>Item 3</Text>
-                </View>
-                <View style={[styles.box, { backgroundColor: '#FFC107' }]}>
-                    <Text style={styles.text}>Item 2</Text>
-                </View>
-                <View style={[styles.box, { backgroundColor: '#2196F3' }]}>
+            <View style={styles.container}>{[
+                <View style={[styles.box, { backgroundColor: '#FF5722' }]} key="1">
                     <Text style={styles.text}>Item 1</Text>
-                </View>
+                </View>,
+                <View style={[styles.box, { backgroundColor: '#FFC107' }]} key="2">
+                    <Text style={styles.text}>Item 2</Text>
+                </View>,
+                <View style={[styles.box, { backgroundColor: '#2196F3' }]} key="3">
+                    <Text style={styles.text}>Item 3</Text>
+                </View>,
+            ].reverse()}
             </View>
         </SafeAreaView>
     );

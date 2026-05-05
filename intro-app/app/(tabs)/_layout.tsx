@@ -24,6 +24,7 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="house.fill" color={color} />
           ),
+          href: null,
         }}
       />
       <Tabs.Screen
@@ -33,6 +34,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
+          href: null,
+
         }}
       />
       <Tabs.Screen
@@ -42,6 +45,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
+          href: null,
+
         }}
       />
       <Tabs.Screen
@@ -51,6 +56,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
+          href: null,
+
         }}
       />
       <Tabs.Screen
@@ -60,6 +67,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="paperplane.fill" color={color} />
           ),
+          href: null,
+
         }}
       />
       <Tabs.Screen
@@ -69,6 +78,8 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="rectangle.grid.2x2.fill" color={color} />
           ),
+          href: null,
+
         }}
       />
       <Tabs.Screen
@@ -78,6 +89,30 @@ export default function TabLayout() {
           tabBarIcon: ({ color }) => (
             <IconSymbol size={28} name="pencil" color={color} />
           ),
+          href: null,
+
+        }}
+      />
+      <Tabs.Screen
+        name="Utssoal2"
+        options={{
+          title: "UTS",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="pencil" color={color} />
+          ),
+          href: null,
+
+        }}
+      />
+      <Tabs.Screen
+        name="Utssoal3"
+        options={{
+          title: "UTS",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol size={28} name="pencil" color={color} />
+          ),
+          href: null,
+
         }}
       />
 

@@ -39,7 +39,7 @@ export default function product() {
         <SafeAreaView>
             <View style={style.container}>
                 <ProductCard title="Laptop" price={7000000} discount={1500000} />
-                <ProductCard title="Mouse" price={150000} discount={0} />
+                <ProductCard title="Mouse" price={150000} discount={150000} />
             </View>
         </SafeAreaView>
     );

@@ -31,8 +31,8 @@ const styles = StyleSheet.create({
         backgroundColor: "#f2f2f2",
     },
     box: {
-        width: 100,
-        height: 100,
+        width: 300,
+        height: 300,
         borderRadius: 10,
         justifyContent: "center",
         alignItems: "center",

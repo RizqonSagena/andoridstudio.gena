@@ -43,7 +43,7 @@ const paymentMethods: PaymentItemProps[] = [
         icon: "layers-outline",
     },
     {
-        title: "Bank Transfer",
+        title: "Emas",
         subtitle: "Transfer via virtual account.",
         icon: "layers-outline",
     },
